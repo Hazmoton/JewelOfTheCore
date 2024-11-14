@@ -1,0 +1,34 @@
+<!DOCTYPE html> <!This allows this to be treated as an html>
+<html lang="en"><!This makes this object recognizable as ENGLISH for the sake of accecibility and search engines ig>
+<head> <!this starts the header>
+    <meta charset="UTF-8"> <!this allowes all 1.1 million unicode values>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!the view port is like the viewing experience ig, and this sets the content width to the device with (very demure) and sets the zoom to 100% or 1.0>
+    <title>Star Wars Personality Quiz</title> <!this is the actual title>
+</head> <! this closed the like meta informaiton section>
+<body> <!this is everything on the padge>
+    <h1>What color is my kyber crystal?</h1> <!okay I think this is like the header like in the actual text>
+    
+    <form action="/result" method="POST"> <!the form allowes users to input data, actions='/result' directs the form's data to the /result recepticle, and method="POST" will send the data not visibly in the URL>
+
+        <p>Question 1: What is your preferred fighting style?</p>
+        <label><input type="radio" name="question1" value="1"> Aggressive</label><br>
+        <label><input type="radio" name="question1" value="2"> Defensive</label><br>
+        <label><input type="radio" name="question1" value="3"> Balanced</label><br>
+
+<!okay so overall here, the p things are paragraph tag openers and closers. The label section is used to make the text clickable, the input of the like subtype "radio" lets the user select an option. So there's a name for it, and a value for it>
+        <p>Question 2: What is your attitude towards the Force?</p>
+        <label><input type="radio" name="question2" value="1"> I believe in using the Force to protect</label><br>
+        <label><input type="radio" name="question2" value="2"> I believe the Force is a tool for domination</label><br>
+        <label><input type="radio" name="question2" value="3"> I think the Force should be used wisely</label><br>
+
+        <p>Question 3: How do you deal with conflict?</p>
+        <label><input type="radio" name="question3" value="1"> I face it head-on with determination</label><br>
+        <label><input type="radio" name="question3" value="2"> I seek to destroy my enemies</label><br>
+        <label><input type="radio" name="question3" value="3"> I try to find a peaceful resolution</label><br>
+
+        <br><input type="submit" value="Submit">
+	<!This one makes a submit button>
+    </form>
+    <!closes the form element>
+</body>
+</html>
